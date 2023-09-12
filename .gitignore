@@ -1,0 +1,8 @@
+# Ignore object files
+*.o
+
+# Ignore the executable for the program
+myapp
+
+# Ignore the executable for the tests
+run_tests
