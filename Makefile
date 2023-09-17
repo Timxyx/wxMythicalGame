@@ -10,11 +10,11 @@ CXXFLAGS = `$(WX_CONFIG) --cxxflags` -Wall -O2
 LDFLAGS = `$(WX_CONFIG) --libs`
 
 # Source and object files
-SRCS = mainframe.cpp app.cpp
+SRCS = mainframe.cpp app.cpp unit.cpp weapon.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # Test source and object files
-TEST_SRCS = tests.cpp catch_amalgamated.cpp someclass.cpp
+TEST_SRCS = tests.cpp catch_amalgamated.cpp someclass.cpp unit.cpp
 TEST_OBJS = $(TEST_SRCS:.cpp=.o)
 TEST_EXEC = run_tests
 

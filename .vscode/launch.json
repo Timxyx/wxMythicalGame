@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/timy/school/finalPractice",
-      "program": "/home/timy/school/finalPractice/build/Debug/outDebug",
+      "cwd": "/home/timy/school/finalExamPractice",
+      "program": "/home/timy/school/finalExamPractice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
